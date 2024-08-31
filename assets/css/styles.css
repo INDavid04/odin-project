@@ -1,0 +1,30 @@
+:root {
+  --dark: #000033;
+  --white: #f7fff7;
+  --cta: #bff523;
+}
+
+body {
+  background-color: var(--dark);
+  color: var(--white);
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+a {
+  color: #bff523;
+}
+
+a:focus, a:hover {
+  text-decoration: none;
+}
+
+main, footer {
+  margin: 0 auto;
+  max-width: 70rem;
+  font-size: 1.2rem;
+}
+
+footer {
+  text-align: center;
+}/*# sourceMappingURL=styles.css.map */
